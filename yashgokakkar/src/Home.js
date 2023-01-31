@@ -6,8 +6,8 @@ import github from "./assets/githublogo.png";
 
 const Home = () => {
   return (
-    <div className="main bg-slate-700 h-screen overflow-y-hidden">
-      <div className="top flex space-x-5 justify-center h-4/5">
+    <div className="main bg-slate-700 h-[calc(100vh-6.5rem)]  w-full">
+      <div className="top flex space-x-5 justify-center h-full">
         <div className="text flex items-center">
           <div className="greet-fron px-10  justify-items-center">
             <h1 className="text-3xl font-bold  text-white">Hello ! I am</h1>
@@ -34,8 +34,8 @@ const Home = () => {
         </div>
       </div>
 
-      <footer className="text-lime-400 flex justify-center bg-slate-800 h-16" fixed="botton">
-        <h1 className="p-5 font-bold text-xl">Made by Yash Gokakkar</h1>
+      <footer className="text-lime-400 flex justify-center bg-slate-800 h-12" fixed="botton">
+        <h1 className="flex items-center font-bold text-xl">Made by Yash Gokakkar</h1>
       </footer>
     </div>
   );
