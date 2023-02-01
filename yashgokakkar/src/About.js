@@ -8,6 +8,15 @@ import js from "./assets/Frontend/js.png";
 import bootstrap from "./assets/Frontend/bootstrap.png";
 import react from "./assets/Frontend/react.png";
 import tailwindcss from "./assets/Frontend/tailwindcss.png"
+import node from "./assets/Backend/node.png";
+import express from "./assets/Backend/express.svg";
+import mongodb from "./assets/Backend/mongodb.svg";
+import mysql from "./assets/Backend/mysql.png";
+import json from "./assets/Backend/json.png";
+import c from "./assets/Programming/c.png";
+import cpp from "./assets/Programming/c++.png";
+import python from "./assets/Programming/python.png";
+
 
 const About = () => {
   return (
@@ -24,12 +33,12 @@ const About = () => {
         </div>
         <Lottie className="h-[22rem]" animationData={frontend} />
         <div className="fron-con flex space-x-4 pb-4 justify-center">
-            <img src={html } className="h-[5rem] w-[5rem]" title="HTML"></img>
-            <img src={css } className="h-[5rem] w-[5rem]" title="CSS"></img>
-            <img src={js } className="h-[5rem] w-[5rem]" title="JS"></img>
-            <img src={bootstrap } className="h-[5rem] w-[5rem]" title="Bootstrap"></img>
-            <img src={react } className="h-[5rem] w-[5rem]" title="React.js"></img>
-            <img src={tailwindcss } className="h-[5rem] w-[5rem]" title="Tailwind CSS"></img>
+            <img src={html } className="h-[5rem] w-[5rem] hover:scale-125" title="HTML"></img>
+            <img src={css } className="h-[5rem] w-[5rem] hover:scale-125" title="CSS"></img>
+            <img src={js } className="h-[5rem] w-[5rem] hover:scale-125" title="JS"></img>
+            <img src={bootstrap } className="h-[5rem] w-[5rem] hover:scale-125" title="Bootstrap"></img>
+            <img src={react } className="h-[5rem] w-[5rem] hover:scale-125" title="React.js"></img>
+            <img src={tailwindcss } className="h-[5rem] w-[5rem] hover:scale-125" title="Tailwind CSS"></img>
         </div>
       </div>
       <div className="backend">
@@ -38,12 +47,12 @@ const About = () => {
         </div>
         <Lottie className="h-[28rem]" animationData={backend} />
         <div className="fron-con flex space-x-4 pb-4 justify-center">
-            <img src={html } className="h-[5rem] w-[5rem]" title="HTML"></img>
-            <img src={css } className="h-[5rem] w-[5rem]" title="CSS"></img>
-            <img src={js } className="h-[5rem] w-[5rem]" title="JS"></img>
-            <img src={bootstrap } className="h-[5rem] w-[5rem]" title="Bootstrap"></img>
-            <img src={react } className="h-[5rem] w-[5rem]" title="React.js"></img>
-            <img src={tailwindcss } className="h-[5rem] w-[5rem]" title="Tailwind CSS"></img>
+            <img src={node } className="h-[5rem] w-[5rem]  hover:scale-125" title="node.js"></img>
+            <img src={express } className="h-[5rem] w-[5rem] hover:scale-125" title="express.js"></img>
+            <img src={mongodb } className="h-[5rem] w-[5rem] hover:scale-125" title="mongodb"></img>
+            <img src={mysql } className="h-[5rem] w-[5rem] hover:scale-125" title="mysql"></img>
+            <img src={json } className="h-[5rem] w-[5rem] hover:scale-125" title="json"></img>
+            
         </div>
       </div>
       <div className="programming">
@@ -52,12 +61,9 @@ const About = () => {
         </div>
         <Lottie className="h-[28rem]" animationData={prog} />
         <div className="fron-con flex space-x-4 pb-4 justify-center">
-            <img src={html } className="h-[5rem] w-[5rem]" title="HTML"></img>
-            <img src={css } className="h-[5rem] w-[5rem]" title="CSS"></img>
-            <img src={js } className="h-[5rem] w-[5rem]" title="JS"></img>
-            <img src={bootstrap } className="h-[5rem] w-[5rem]" title="Bootstrap"></img>
-            <img src={react } className="h-[5rem] w-[5rem]" title="React.js"></img>
-            <img src={tailwindcss } className="h-[5rem] w-[5rem]" title="Tailwind CSS"></img>
+            <img src={c } className="h-[5rem] w-[5rem] hover:scale-125" title="C programming"></img>
+            <img src={cpp } className="h-[5rem] w-[5rem] hover:scale-125" title="C++ programming"></img>
+            <img src={python } className="h-[5rem] w-[5rem] hover:scale-125" title="Python programming"></img>
         </div>
       </div>
     </div>
