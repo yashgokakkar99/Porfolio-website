@@ -34,7 +34,7 @@ const Home = () => {
         </div>
       </div>
 
-      <footer className="text-lime-400 flex justify-center bg-slate-800 h-12" fixed="botton">
+      <footer className="text-lime-400 flex justify-center bg-slate-800 h-12" >
         <h1 className="flex items-center font-bold text-xl">Made by Yash Gokakkar</h1>
       </footer>
     </div>
