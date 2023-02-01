@@ -18,8 +18,8 @@ const Home = () => {
               Full Stack Web Developer
             </h1>
             <div className="socials flex space-x-4 pb-4">
-              <img src={insta} className="h-14 w-14"></img>
-              <img src={lnkd} className="h-14 w-14"></img>
+              <a href="http://www.instagram.com/yashgokakkar99" target="_blank"><img src={insta} className="h-14 w-14"></img></a>
+              <a href="https://www.linkedin.com/in/yash-ashok-gokakkar-426965202/" target="blank"><img src={lnkd} className="h-14 w-14"></img></a>
               <img src={github} className="h-14 w-14"></img>
             </div>
             <div className="btns flex space-x-5">
