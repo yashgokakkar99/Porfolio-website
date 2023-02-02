@@ -15,7 +15,8 @@ const Education = () => {
           <h1 className="header-con flex justify-center border-0 text-white px-12 py-2 mt-4 text-xl font-bold  bg-slate-500">
             Certifications
           </h1>
-          <div className="edu1 text-white w-full border-2 mb-6 mt-6">
+          <div className="certs grid grid-cols-2">
+          <div className="edu1 text-white w-96 m-auto border-2 mb-6 mt-6">
             <div className="edu1-head border-2 text-xl font-bold  p-3">
               <h1>
                 The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert
@@ -30,13 +31,13 @@ const Education = () => {
                   <h1 className="text-white font-bold">Udemy</h1>
                 </div>
               </div>
-              <div className="edu1-type  items-center  absolute right-10 border-2 p-3">
+              <div className="edu1-type  items-center   border-2 p-3">
                 <button>Verify</button>
               </div>
             </div>
           </div>
 
-          <div className="edu1 text-white w-full border-2 mb-6 ">
+          <div className="edu1 text-white w-96 m-auto border-2 mb-6 ">
             <div className="edu1-head border-2 text-xl font-bold p-3">
               <h1>C Programming For Beginners - Master the C Language</h1>
             </div>
@@ -49,13 +50,13 @@ const Education = () => {
                   <h1 className="text-white font-bold">Udemy</h1>
                 </div>
               </div>
-              <div className="edu1-type items-center  absolute right-10 border-2 p-3">
+              <div className="edu1-type items-center   border-2 p-3">
                 <button>Verify</button>
               </div>
             </div>
           </div>
 
-          <div className="edu1 text-white w-full border-2 mb-6 ">
+          <div className="edu1 text-white w-96 m-auto border-2 mb-6 ">
             <div className="edu1-head border-2 text-xl font-bold p-3">
               <h1>edX Verified Certificate for Python Basics for Data Science</h1>
             </div>
@@ -68,13 +69,13 @@ const Education = () => {
                   <h1 className="text-white font-bold">edX</h1>
                 </div>
               </div>
-              <div className="edu1-type items-center  absolute right-10 border-2 p-3">
+              <div className="edu1-type items-center border-2 p-3">
                 <button>Verify</button>
               </div>
             </div>
           </div>
 
-          <div className="edu1 text-white w-full border-2 mb-6 ">
+          <div className="edu1 text-white w-96 m-auto border-2 mb-6 ">
             <div className="edu1-head border-2 text-xl font-bold p-3">
               <h1>edX Verified Certificate for AI for Everyone: Master the Basics</h1>
             </div>
@@ -87,13 +88,13 @@ const Education = () => {
                   <h1 className="text-white font-bold">edX</h1>
                 </div>
               </div>
-              <div className="edu1-type items-center  absolute right-10 border-2 p-3">
+              <div className="edu1-type items-center border-2 p-3">
                 <button>Verify</button>
               </div>
             </div>
           </div>
 
-          <div className="edu1 text-white w-full border-2 mb-6 ">
+          <div className="edu1 text-white w-96 m-auto border-2 mb-6 ">
             <div className="edu1-head border-2 text-xl font-bold p-3">
               <h1>30 days of Google Cloud</h1>
             </div>
@@ -106,13 +107,13 @@ const Education = () => {
                   <h1 className="text-white font-bold">Google Cloud</h1>
                 </div>
               </div>
-              <div className="edu1-type items-center  absolute right-10 border-2 p-3">
+              <div className="edu1-type items-center border-2 p-3">
                 <button>Verify</button>
               </div>
             </div>
           </div>
 
-          <div className="edu1 text-white w-full border-2 mb-6 ">
+          <div className="edu1 text-white w-96 m-auto border-2 mb-6 ">
             <div className="edu1-head border-2 text-xl font-bold p-3">
               <h1>Programming for Everybody (Getting Started with Python)!</h1>
             </div>
@@ -125,13 +126,13 @@ const Education = () => {
                   <h1 className="text-white font-bold">Coursera</h1>
                 </div>
               </div>
-              <div className="edu1-type items-center  absolute right-10 border-2 p-3">
+              <div className="edu1-type items-center border-2 p-3">
                 <button>Verify</button>
               </div>
             </div>
           </div>
 
-          <div className="edu1 text-white w-full border-2 mb-6 ">
+          <div className="edu1 text-white w-96 m-auto border-2 mb-6 ">
             <div className="edu1-head border-2 text-xl font-bold p-3">
               <h1>Introduction to HTML5</h1>
             </div>
@@ -144,13 +145,13 @@ const Education = () => {
                   <h1 className="text-white font-bold">Coursera</h1>
                 </div>
               </div>
-              <div className="edu1-type items-center  absolute right-10 border-2 p-3">
+              <div className="edu1-type items-center border-2 p-3">
                 <button>Verify</button>
               </div>
             </div>
           </div>
 
-          <div className="edu1 text-white w-full border-2 mb-6 ">
+          <div className="edu1 text-white w-96 m-auto border-2 mb-6 ">
             <div className="edu1-head border-2 text-xl font-bold p-3">
               <h1>Introduction to CSS3</h1>
             </div>
@@ -163,13 +164,13 @@ const Education = () => {
                   <h1 className="text-white font-bold">Coursera</h1>
                 </div>
               </div>
-              <div className="edu1-type items-center  absolute right-10 border-2 p-3">
+              <div className="edu1-type items-center border-2 p-3">
                 <button>Verify</button>
               </div>
             </div>
           </div>
 
-          <div className="edu1 text-white w-full border-2 mb-6 ">
+          <div className="edu1 text-white w-96 m-auto border-2 mb-6 ">
             <div className="edu1-head border-2 text-xl font-bold p-3">
               <h1>Interactivity with Javascript</h1>
             </div>
@@ -182,13 +183,13 @@ const Education = () => {
                   <h1 className="text-white font-bold">Coursera</h1>
                 </div>
               </div>
-              <div className="edu1-type items-center  absolute right-10 border-2 p-3">
+              <div className="edu1-type items-center border-2 p-3">
                 <button>Verify</button>
               </div>
             </div>
           </div>
 
-          <div className="edu1 text-white w-full border-2 mb-6 ">
+          <div className="edu1 text-white w-96 m-auto border-2 mb-6 ">
             <div className="edu1-head border-2 text-xl font-bold p-3">
               <h1>Crash course on python</h1>
             </div>
@@ -201,11 +202,14 @@ const Education = () => {
                   <h1 className="text-white font-bold">Coursera</h1>
                 </div>
               </div>
-              <div className="edu1-type items-center  absolute right-10 border-2 p-3">
+              <div className="edu1-type items-center  border-2 p-3">
                 <button>Verify</button>
               </div>
             </div>
           </div>
+          </div>
+          
+
         </div>
       </div>
       <div className="Qualifications">
@@ -271,7 +275,11 @@ const Education = () => {
           </div>
         </div>
       </div>
+      <footer className="text-lime-400 flex justify-center bg-slate-800 h-12" >
+        <h1 className="flex items-center font-bold text-xl">Made by Yash Gokakkar</h1>
+      </footer>
     </div>
+    
   );
 };
 
